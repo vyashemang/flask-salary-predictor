@@ -29,7 +29,7 @@ regressor.fit(X_train, y_train)
 # Predicting the Test set results
 y_pred = regressor.predict(X_test)
 
-# Saving model to disk
+# Saving model using pickle
 pickle.dump(regressor, open('model.pkl','wb'))
 
 # Loading model to compare the results
