@@ -3,9 +3,12 @@ This is project predicts the salary of the employee based on the experience.
 
 # Model
 model.py trains and saves the model to the disk.
+model.pkb the pickle model 
 
-# Server
-server.py contains all the requiered for flask and to manage APIs.
+# App
+app.py contains all the requiered for flask and to manage APIs.
 
-# Request
-request.py contains the python code to process POST request to server.
+
+
+Procedure--
+Open command Prompt and go to given directory and then run python app.py
