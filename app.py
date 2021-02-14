@@ -23,9 +23,6 @@ def predict():
     return render_template('index.html', prediction_text='Salary is {}'.format(output))
 
 
-    
-                           
-
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
     '''
